@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 23 22:04:25 2020
+
+@author: Happy sunday
+"""
+
+def add(a,**aa):
+    for i,j in aa.items():
+        print(i,j)
+    
+
+
+k={'a':1,'b':2,'c':3}
+
+add(1,k)
